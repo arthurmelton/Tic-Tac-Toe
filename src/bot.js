@@ -114,66 +114,66 @@ client.on('message', (message) => {
 																										board[parseInt(commandName) - 1] = " :o: ";
 																										if (board[0] === board[4] && board[4] === board[8]) {
 																											if (board[4] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[4] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[1] === board[4] && board[4]  === board[7]) {
 																											if (board[4] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[4] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[2] === board[4] && board[4]  === board[6]) {
 																											if (board[4] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[4] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[3] === board[4] && board[4]  === board[5]) {
 																											if (board[4] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[4] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[0] === board[3] && board[3]  === board[6]) {
 																											if (board[3] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[3] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[2] === board[5] && board[5]  === board[9]) {
 																											if (board[5] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[5] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[0] === board[1] && board[1]  === board[2]) {
 																											if (board[1] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[1] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[6] === board[7] && board[7]  === board[8]) {
 																											if (board[7] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[7] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}
@@ -190,66 +190,66 @@ client.on('message', (message) => {
 																													board[parseInt(commandName) - 1] = " :x: ";
 																													if (board[0] === board[4] && board[4]  === board[8]) {
 																														if (board[4] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[4] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[1] === board[4] && board[4]  === board[7]) {
 																														if (board[4] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[4] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[2] === board[4] && board[4]  === board[6]) {
 																														if (board[4] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[4] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[3] === board[4] && board[4]  === board[5]) {
 																														if (board[4] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[4] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[0] === board[3] && board[3]  === board[6]) {
 																														if (board[3] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[3] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[2] === board[5] && board[5]  === board[9]) {
 																														if (board[5] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[5] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[0] === board[1] && board[1]  === board[2]) {
 																														if (board[1] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[1] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[6] === board[7] && board[7]  === board[8]) {
 																														if (board[7] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[7] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}
@@ -266,66 +266,66 @@ client.on('message', (message) => {
 																																board[parseInt(commandName) - 1] = " :o: ";
 																																if (board[0] === board[4] && board[4]  === board[8]) {
 																																	if (board[4] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[4] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[1] === board[4] && board[4]  === board[7]) {
 																																	if (board[4] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[4] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[2] === board[4] && board[4]  === board[6]) {
 																																	if (board[4] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[4] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[3] === board[4] && board[4]  === board[5]) {
 																																	if (board[4] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[4] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[0] === board[3] && board[3]  === board[6]) {
 																																	if (board[3] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[3] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[2] === board[5] && board[5]  === board[9]) {
 																																	if (board[5] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[5] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[0] === board[1] && board[1]  === board[2]) {
 																																	if (board[1] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[1] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[6] === board[7] && board[7]  === board[8]) {
 																																	if (board[7] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[7] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}
@@ -342,66 +342,66 @@ client.on('message', (message) => {
 																																			board[parseInt(commandName) - 1] = " :x: ";
 																																			if (board[0] === board[4] && board[4]  === board[8]) {
 																																				if (board[4] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[4] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[1] === board[4] && board[4]  === board[7]) {
 																																				if (board[4] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[4] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[2] === board[4] && board[4]  === board[6]) {
 																																				if (board[4] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[4] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[3] === board[4] && board[4]  === board[5]) {
 																																				if (board[4] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[4] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[0] === board[3] && board[3]  === board[6]) {
 																																				if (board[3] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[3] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[2] === board[5] && board[5]  === board[9]) {
 																																				if (board[5] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[5] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[0] === board[1] && board[1]  === board[2]) {
 																																				if (board[1] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[1] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[6] === board[7] && board[7]  === board[8]) {
 																																				if (board[7] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[7] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}
@@ -421,65 +421,65 @@ client.on('message', (message) => {
 																																						board[parseInt(commandName) - 1] = " :o: ";
 																																						if (board[0] === board[4] && board[4]  === board[8]) {
 																																							if (board[4] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[4] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[1] === board[4] && board[4]  === board[7]) {
 																																							if (board[4] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[4] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[2] === board[4] && board[4]  === board[6]) {
 																																							if (board[4] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[4] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[3] === board[4] && board[4]  === board[5]) {
 																																							if (board[4] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[4] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																						}else if (board[0] === board[3] && board[3]  === board[6]) {
 																																							if (board[3] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[3] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[2] === board[5] && board[5]  === board[9]) {
 																																							if (board[5] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[5] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[0] === board[1] && board[1]  === board[2]) {
 																																							if (board[1] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[1] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[6] === board[7] && board[7]  === board[8]) {
 																																							if (board[7] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[7] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else {
@@ -634,66 +634,66 @@ client.on('message', (message) => {
 																										board[parseInt(commandName) - 1] = " :o: ";
 																										if (board[0] === board[4] && board[4] === board[8]) {
 																											if (board[4] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[4] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[1] === board[4] && board[4]  === board[7]) {
 																											if (board[4] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[4] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[2] === board[4] && board[4]  === board[6]) {
 																											if (board[4] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[4] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[3] === board[4] && board[4]  === board[5]) {
 																											if (board[4] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[4] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[0] === board[3] && board[3]  === board[6]) {
 																											if (board[3] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[3] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[2] === board[5] && board[5]  === board[9]) {
 																											if (board[5] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[5] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[0] === board[1] && board[1]  === board[2]) {
 																											if (board[1] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[1] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}else if (board[6] === board[7] && board[7]  === board[8]) {
 																											if (board[7] === " :x: ") {
-																												message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																												message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																											}
 																											if (board[7] === " :o: ") {
-																												message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																												message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																											}
 																											return;
 																										}
@@ -710,66 +710,66 @@ client.on('message', (message) => {
 																													board[parseInt(commandName) - 1] = " :x: ";
 																													if (board[0] === board[4] && board[4]  === board[8]) {
 																														if (board[4] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[4] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[1] === board[4] && board[4]  === board[7]) {
 																														if (board[4] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[4] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[2] === board[4] && board[4]  === board[6]) {
 																														if (board[4] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[4] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[3] === board[4] && board[4]  === board[5]) {
 																														if (board[4] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[4] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[0] === board[3] && board[3]  === board[6]) {
 																														if (board[3] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[3] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[2] === board[5] && board[5]  === board[9]) {
 																														if (board[5] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[5] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[0] === board[1] && board[1]  === board[2]) {
 																														if (board[1] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[1] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}else if (board[6] === board[7] && board[7]  === board[8]) {
 																														if (board[7] === " :x: ") {
-																															message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																															message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																														}
 																														if (board[7] === " :o: ") {
-																															message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																															message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																														}
 																														return;
 																													}
@@ -786,66 +786,66 @@ client.on('message', (message) => {
 																																board[parseInt(commandName) - 1] = " :o: ";
 																																if (board[0] === board[4] && board[4]  === board[8]) {
 																																	if (board[4] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[4] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[1] === board[4] && board[4]  === board[7]) {
 																																	if (board[4] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[4] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[2] === board[4] && board[4]  === board[6]) {
 																																	if (board[4] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[4] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[3] === board[4] && board[4]  === board[5]) {
 																																	if (board[4] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[4] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[0] === board[3] && board[3]  === board[6]) {
 																																	if (board[3] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[3] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[2] === board[5] && board[5]  === board[9]) {
 																																	if (board[5] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[5] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[0] === board[1] && board[1]  === board[2]) {
 																																	if (board[1] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[1] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}else if (board[6] === board[7] && board[7]  === board[8]) {
 																																	if (board[7] === " :x: ") {
-																																		message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																		message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																	}
 																																	if (board[7] === " :o: ") {
-																																		message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																		message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																	}
 																																	return;
 																																}
@@ -862,66 +862,66 @@ client.on('message', (message) => {
 																																			board[parseInt(commandName) - 1] = " :x: ";
 																																			if (board[0] === board[4] && board[4]  === board[8]) {
 																																				if (board[4] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[4] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[1] === board[4] && board[4]  === board[7]) {
 																																				if (board[4] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[4] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[2] === board[4] && board[4]  === board[6]) {
 																																				if (board[4] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[4] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[3] === board[4] && board[4]  === board[5]) {
 																																				if (board[4] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[4] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[0] === board[3] && board[3]  === board[6]) {
 																																				if (board[3] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[3] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[2] === board[5] && board[5]  === board[9]) {
 																																				if (board[5] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[5] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[0] === board[1] && board[1]  === board[2]) {
 																																				if (board[1] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[1] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}else if (board[6] === board[7] && board[7]  === board[8]) {
 																																				if (board[7] === " :x: ") {
-																																					message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																					message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																				}
 																																				if (board[7] === " :o: ") {
-																																					message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																					message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																				}
 																																				return;
 																																			}
@@ -941,65 +941,65 @@ client.on('message', (message) => {
 																																						board[parseInt(commandName) - 1] = " :o: ";
 																																						if (board[0] === board[4] && board[4]  === board[8]) {
 																																							if (board[4] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[4] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[1] === board[4] && board[4]  === board[7]) {
 																																							if (board[4] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[4] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[2] === board[4] && board[4]  === board[6]) {
 																																							if (board[4] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[4] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[3] === board[4] && board[4]  === board[5]) {
 																																							if (board[4] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[4] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																						}else if (board[0] === board[3] && board[3]  === board[6]) {
 																																							if (board[3] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[3] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[2] === board[5] && board[5]  === board[9]) {
 																																							if (board[5] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[5] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[0] === board[1] && board[1]  === board[2]) {
 																																							if (board[1] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[1] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else if (board[6] === board[7] && board[7]  === board[8]) {
 																																							if (board[7] === " :x: ") {
-																																								message.channel.send(`<@!${player2}>, we won agenst <@!${player1}>!`);
+																																								message.channel.send(`<@!${player2}>, we won against <@!${player1}>!`);
 																																							}
 																																							if (board[7] === " :o: ") {
-																																								message.channel.send(`<@!${player1}>, we won agenst <@!${player2}>!`);
+																																								message.channel.send(`<@!${player1}>, we won against <@!${player2}>!`);
 																																							}
 																																							return;
 																																						}else {
