@@ -12,8 +12,8 @@
 run
 
 ```
-git clone https://github.com/AMTitan/Discord-Play-Intro-and-Outro-Songs.git
-cd ./Discord-Play-Intro-and-Outro-Songs
+git clone https://github.com/AMTitan/Tic-Tac-Toe.git
+cd ./Tic-Tac-Toe
 npm install
 ```
 Then to add a file called `.env` and put in side
